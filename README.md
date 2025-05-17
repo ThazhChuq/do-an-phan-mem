@@ -1,11 +1,51 @@
-# Dự Án Hệ Thống Đăng Nhập và Đăng Ký
+# Hướng dẫn sử dụng Git và GitHub
 
-## Giới thiệu
-Dự án này là một ứng dụng PHP đơn giản cho phép người dùng **đăng ký**, **đăng nhập** và **đăng xuất**. Hệ thống sử dụng cơ sở dữ liệu MySQL để lưu trữ thông tin người dùng, bao gồm tên đăng nhập và mật khẩu (được mã hóa).
+## 1. Khởi tạo Git và đẩy folder lên GitHub
 
-### Các tính năng chính:
-- **Đăng ký** người dùng mới.
-- **Đăng nhập** cho phép người dùng truy cập vào hệ thống.
-- **Đăng xuất** người dùng khi họ muốn thoát khỏi hệ thống.
-- **Cơ sở dữ liệu MySQL** để lưu trữ thông tin người dùng.
-- **Bảo mật** mật khẩu sử dụng hàm `password_hash` và `password_verify` để mã hóa và kiểm tra mật khẩu.
+```bash
+# Di chuyển đến thư mục dự án
+cd duong_dan/ten_folder
+
+# Khởi tạo Git
+git init
+
+# Thêm tất cả file vào Git
+git add .
+
+# Commit lần đầu
+git commit -m "Initial commit"
+
+# Kết nối đến repository trên GitHub
+git remote add origin https://github.com/ten_tai_khoan/ten_repo.git
+
+# Đẩy lên GitHub (nhánh main)
+git push -u origin main
+
+
+##2. Thêm folder mới
+## Tạo folder mới, ví dụ: assets/
+mkdir assets
+
+# Thêm file vào để Git nhận diện folder
+touch assets/.gitkeep
+
+# Thêm vào Git và đẩy lên
+git add assets/
+git commit -m "Thêm folder assets"
+git push
+
+
+##3. Sửa folder (sửa file bên trong folder)
+
+# Sau khi sửa xong
+git add assets/info.txt
+git commit -m "Cập nhật nội dung file info.txt"
+git push
+
+##4. Xóa folder
+rm -r assets/
+
+# Cập nhật thay đổi vào Git
+git rm -r assets/
+git commit -m "Xóa folder assets"
+git push
