@@ -16,7 +16,7 @@ git add .
 git commit -m "Initial commit"
 
 # Kết nối đến repository trên GitHub
-git remote add origin https://github.com/ten_tai_khoan/ten_repo.git
+git remote add origin https://github.com/ThanzhChuq/do-an-phan-mem
 
 # Đẩy lên GitHub (nhánh main)
 git push -u origin main
