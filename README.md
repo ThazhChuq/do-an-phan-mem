@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng Git và GitHub
+## Hướng dẫn sử dụng Git và GitHub
 
 ## 1. Khởi tạo Git và đẩy folder lên GitHub
 
@@ -21,9 +21,7 @@ git remote add origin https://github.com/ThanzhChuq/do-an-phan-mem
 # Đẩy lên GitHub (nhánh main)
 git push -u origin main
 
-## 1. Khởi tạo Git và đẩy folder lên GitHub
-
-```bash
+## 2. Thêm folder mới
 ## Tạo folder mới, ví dụ: assets/
 mkdir assets
 
