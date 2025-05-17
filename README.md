@@ -22,7 +22,7 @@ git remote add origin https://github.com/ten_tai_khoan/ten_repo.git
 git push -u origin main
 
 
-##2. Thêm folder mới
+## 2. Thêm folder mới
 ## Tạo folder mới, ví dụ: assets/
 mkdir assets
 
@@ -35,14 +35,14 @@ git commit -m "Thêm folder assets"
 git push
 
 
-##3. Sửa folder (sửa file bên trong folder)
+## 3. Sửa folder (sửa file bên trong folder)
 
 # Sau khi sửa xong
 git add assets/info.txt
 git commit -m "Cập nhật nội dung file info.txt"
 git push
 
-##4. Xóa folder
+## 4. Xóa folder
 rm -r assets/
 
 # Cập nhật thay đổi vào Git
