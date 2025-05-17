@@ -21,7 +21,8 @@ git remote add origin https://github.com/ThanzhChuq/do-an-phan-mem
 # Đẩy lên GitHub (nhánh main)
 git push -u origin main
 
-## 2. Thêm folder mới
+## 1. Khởi tạo Git và đẩy folder lên GitHub
+
 ```bash
 ## Tạo folder mới, ví dụ: assets/
 mkdir assets
